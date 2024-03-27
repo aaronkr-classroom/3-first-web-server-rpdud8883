@@ -15,6 +15,7 @@ const port = 3000,
 //   "/": "views/index.html",
 // };
 
+// = 경로 = //about
 const getViewUrl = (url) => {
   // URL을 파일 경로에 보간하기 위한 함수 생성
   return `views${url}.html`;
